@@ -1,6 +1,8 @@
 import sys
 import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
+from Source.utils import save_object  
+
 
 import pandas as pd  
 from sklearn.model_selection import train_test_split  
